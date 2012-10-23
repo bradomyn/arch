@@ -1,0 +1,80 @@
+!BLK Cursor
+URxvt.color0      : #000d18
+URxvt.color8      : #000d18
+
+!RED Tag
+URxvt.color1      : #e89393
+URxvt.color9      : #e89393
+
+!GRN SpecialKey
+URxvt.color2      : #9ece9e
+URxvt.color10     : #9ece9e
+
+!YEL Keyword
+URxvt.color3      : #f0dfaf
+URxvt.color11     : #f0dfaf
+
+!BLU Number
+URxvt.color4      : #8cd0d3
+URxvt.color12     : #8cd0d3
+
+!MAG Precondit
+URxvt.color5      : #c0bed1
+URxvt.color13     : #c0bed1
+
+!CYN Float
+URxvt.color6      : #dfaf8f
+URxvt.color14     : #dfaf8f
+
+!WHT Search
+URxvt.color7      : #efefef
+URxvt.color15     : #efefef
+
+!TXT Normal, Normal, Cursor
+URxvt.background  : #1f1f1f
+URxvt.foreground  : #dcdccc
+URxvt.cursorColor : #8faf9f
+
+!HLT Include, StatusLine, ErrorMsg
+URxvt.colorBD     : #ffcfaf
+URxvt.colorUL     : #ccdc90
+URxvt.colorIT     : #80d4aa
+
+!bold             : xoria256.Type.guifg
+!underline        : xoria256.htmlValue.guifg
+URxvt.colorBD     : #afafdf
+URxvt.colorUL     : #dfdfaf
+
+!urxvt fonts: 
+
+URxvt*font: xft:Monospace:pixelsize=15
+URxvt*boldFont: xft:Monospace:bold:pixelsize=15
+
+Urxvt.termName: Linux
+
+!urxvt extensions:
+
+!URxvt.perl-ext-common:  default,matcher,tabbedex
+
+!enabling clickable links:
+
+URxvt.urlLauncher:      chromium
+URxvt.matcher.button:   1 
+
+!urxvt scrolling options and cursor style:
+
+URxvt*saveLines: 12000
+URxvt*scrollstyle:plain
+URxvt*scrollBar: false
+URxvt*cursorBlink: true
+!URxvt*cursorUnderline: true
+
+! urxvt tabs settings:
+URxvt.perl-ext-common: default,matcher,tabbed
+URxvt.tabbed.tabbar-fg: 7
+URxvt.tabbed.tabbar-bg: 0
+URxvt.tabbed.tab-fg: 2
+URxvt.tabbed.tab-bg: 0
+URxvt.tabbed.autohide:  yes
+URxvt.tabbed.new-button:  no
+URxvt.tabbed.title: no
