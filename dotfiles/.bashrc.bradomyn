@@ -1,0 +1,15 @@
+
+# Check for an interactive session
+[ -z "$PS1" ] && return
+
+alias ls='ls --color=auto'
+PS1='[\u@\h \W]\$ '
+
+# update the path of LD_LIBRARY for lm32
+
+export LD_LIBRARY_PATH=/usr/local/lm32/lib:$LD_LIBRARY_PATH
+#export LM_LICENSE_FILE=/home/bradomyn/modelsim/LICENSE.dat
+
+
+complete -cf sudo
+complete -cf man
